@@ -29,3 +29,10 @@ def insertion_sort_monotonically_decreasing(arr):
         arr[j + 1] = key
     
     return arr
+    
+    #Using algorithm
+if __name__ == "__main__":
+    data = [10,3,2,5,8,4,3,1]
+    print("Original array:", data)
+    sorted_data = insertion_sort_monotonically_decreasing(data)
+    print("Sorted array in decreasing order:", sorted_data)
